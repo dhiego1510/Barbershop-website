@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #bbbbbb;
+  padding: 20px 0;
+}
+.container-head {
+  width: 940px;
+  position: relative;
+  margin: 0 auto; /*margen cero arriba abjo pero automatico a los lados ya que le di tamaño de ancho a este contenedor, entonces con el margen desde ese punto se van a ver centralidados los el. hijos
+  Margin auto-- Delegamos para que el navegador haga la cuenta al calcular la largura restante, dividir entre dos y agregar la mitad en cada uno de los lados.*/
+}
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+
+}
+nav li {
+  display: inline;
+  padding-left: 3rem;
+}
+
+nav a {
+  text-transform: uppercase; /* mayuscula*/
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #c78c19;
+  text-decoration: underline;
+}
+
+.products {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px;
+}
+.products li {
+ display: inline-block; /*¨Para colocar los elementos en linea*/
+ text-align: center;
+ width: 30%;
+ vertical-align: top;
+ margin: 0 1.5%;
+ padding: 30px 20px;
+ box-sizing: border-box; /*Esto hace q los 20px de padding que tengo a los lados no van a sobrepasar los 30% que definimos en el ancho  */
+ border: 2px solid #000000;
+ 
+ border-radius: 10px;
+
+}
+.products li:hover {
+  border-color: #c78c19; 
+}
+
+.products li:active {
+  border-color: #088c19;
+}
+
+.products h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.products li:hover h2 {
+  font-size: 33px;
+}
+
+.pdt-description {
+  font-size: 18px;
+}
+.pdt-price {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  background: url(images/img_productos/bg.jpg);
+  padding: 40px;
+
+}
+
+.copyright {
+  color: #FFFFFF;
+  font-size: 13px;
+  margin: 20px;
+}
+
+.container-form {
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0;
+}
+
+form label, form p {
+  display: block;/*Display block ocupa todo el ancho y hace que cada elemento de un salto de linea*/
+  font-size: 20px;
+  margin: 0 0 10px;
+
+}
+
+.input-block{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+
+}
+
+.checkbox {
+  margin: 20px 0;
+}
+ 
