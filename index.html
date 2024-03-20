@@ -2,59 +2,107 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="home-styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
   </head>
 
   <body>
+
     <header>
-      <h1 class="titulo-principal">Barbería Alura</h1>
+      <div class="container-head">
+        <h1>
+          <img src="./images/img_productos/logo.png" alt="" />
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./productos.html">Productos</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <img src="./images/banner.jpg" id="photo" />
 
-    <div class="principal">
-      <h2 class="titulo-centralizado">Sobre la Barbería Alura</h2>
+    <img src="./images/banner.jpg" class="banner"/>
 
-      <p>
-        Lorem ipsum dolor sit amet <strong>Barberia AR</strong> adipisicing
-        elit. Nemo est placeat sint ipsa, error esse. Placeat esse rerum fuga at
-        laboriosam praesentium blanditiis assumenda. Corrupti quia quod nobis ab
-        unde.
-      </p>
+    <main>
+      
+      <section class="principal">
 
-      <p id="mision">
-        <em
-          >Nuestra misión es:
-          <strong
-            >"Proporcionar autoestima y calidad de vida a nuestros
-            clientes"</strong
-          >.</em
-        >
-      </p>
+        <h2 class="titulo-principal">Sobre la Barbería Alura</h2>
+        <img src="./images/utensilios.jpg" class="utensilios" alt="utensilios de barbero">
+        <p>
+          Lorem ipsum dolor sit amet <strong>Barberia AR</strong> adipisicing
+          elit. Nemo est placeat sint ipsa, error esse. Placeat esse rerum fuga at
+          laboriosam praesentium blanditiis assumenda. Corrupti quia quod nobis ab
+          unde.
+        </p>
+  
+        <p id="mision">
+          <em
+            >Nuestra misión es:
+            <strong
+              >"Proporcionar autoestima y calidad de vida a nuestros
+              clientes"</strong
+            >.</em
+          >
+        </p>
+  
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo est
+          placeat sint ipsa, error esse. Placeat esse rerum fuga at laboriosam
+          praesentium blanditiis assumenda. Corrupti quia quod nobis ab unde
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse laborum
+          cupiditate id quis suscipit
+        </p>
+      </section>
 
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo est
-        placeat sint ipsa, error esse. Placeat esse rerum fuga at laboriosam
-        praesentium blanditiis assumenda. Corrupti quia quod nobis ab unde
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse laborum
-        cupiditate id quis suscipit
-      </p>
-    </div>
+      <section class="mapa">
+        <h3 class="titulo-principal">Nuestra ubicacion</h3>
+        <p>Nuestro establecimiento está en el corazón de la ciudad</p>
 
-    <div class="diferenciales">
-      <ul>
-        <li class="items">Atencion personalizada a los clientes</li>
-        <li class="items">Espacio diferenciado</li>
-        <li class="items">Localizacion</li>
-        <li class="items">Profesionales calificados</li>
-      </ul>
+        <div class="mapa-contenido">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15864.576091785842!2d-75.58057148730958!3d6.244743441705608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429ac150efd3b%3A0xe07ee393112a7a77!2sParques%20del%20R%C3%ADo%20Medell%C3%ADn!5e0!3m2!1ses-419!2sco!4v1710873324642!5m2!1ses-419!2sco" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    
+      </section>
 
-      <img
-        class="imagenDiferenciales"
-        src="./images/diferenciales.jpg"
-        alt=""
-      />
-    </div>
+      <section class="diferenciales">
+
+        <h3 class="titulo-principal">Diferenciales</h3>
+        
+        <div class="contenido-diferenciales">
+          <ul class="lista-diferenciales">
+            <li class="items">Atencion personalizada a los clientes</li>
+            <li class="items">Espacio diferenciado</li>
+            <li class="items">Localizacion</li>
+            <li class="items">Profesionales calificados</li>
+            <li class="items">Puntualidad</li>
+            <li class="items">Limpieza</li>
+          </ul><img
+              src="./images/diferenciales.jpg"
+              alt=""
+              class="img-diferenciales"
+            />
+        </div>
+        <div class="video">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY?si=BKV5PHYvY5GqMXlI&amp;start=14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      
+        </section>
+
+       
+
+        
+    </main>
+    
+    <footer>
+      <img src="images/img_productos/logo-blanco.png" alt="" />
+      <p class="copyright">&copy Copyright Barberia Alura - 2024</p>
+    </footer>
+
   </body>
 </html>
