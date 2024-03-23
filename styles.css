@@ -24,7 +24,7 @@ nav li {
 }
 
 nav a {
-  text-transform: uppercase; /* mayuscula*/
+  text-transform: uppercase;
   color: #000000;
   font-weight: bold;
   font-size: 22px;
@@ -41,13 +41,13 @@ nav a:hover {
   padding: 50px;
 }
 .products li {
-  display: inline-block; /*¨Para colocar los elementos en linea*/
+  display: inline-block;
   text-align: center;
   width: 30%;
   vertical-align: top;
   margin: 0 1.5%;
   padding: 30px 20px;
-  box-sizing: border-box; /*Esto hace q los 20px de padding que tengo a los lados no van a sobrepasar los 30% que definimos en el ancho  */
+  box-sizing: border-box; 
   border: 2px solid #000000;
 
   border-radius: 10px;
@@ -100,7 +100,7 @@ form {
 
 form label,
 form p {
-  display: block; /*Display block ocupa todo el ancho y hace que cada elemento de un salto de linea*/
+  display: block; 
   font-size: 20px;
   margin: 0 0 10px;
 }
@@ -133,7 +133,7 @@ form p {
 }
 table {
   margin: 40px 40px;
-  border-collapse: collapse; /* elimina el borde entre las celdas*/
+  border-collapse: collapse;
 }
 thead {
   background-color: #555555;
@@ -160,8 +160,7 @@ th {
   background-color: #FEFEFE;
   width: 940px;
   position: relative;
-  margin: 0 auto; /*margen cero arriba abjo pero automatico a los lados ya que le di tamaño de ancho a este contenedor, entonces con el margen desde ese punto se van a ver centralidados los el. hijos
-  Margin auto-- Delegamos para que el navegador haga la cuenta al calcular la largura restante, dividir entre dos y agregar la mitad en cada uno de los lados.*/
+  margin: 0 auto; 
 }
 
 .titulo-principal {
@@ -233,7 +232,7 @@ p:first-line {
 .img-diferenciales {
   width: 60%;
   transition: 400ms;
-  box-shadow: 10px 10px 20px 10px black; /* primero derecha , segundo abajo,(si quiero izquierda y arriba toca poner negativo), , tercero difuminacion, cuarto tamaño de sombra, ultimo el color*/
+  box-shadow: 10px 10px 20px 10px black; 
 }
 
 .img-diferenciales:hover {
